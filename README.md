@@ -41,42 +41,9 @@ The research is grounded in signaling theory within AI-driven marketing and cons
 Python, Pandas, NumPy, SciPy, Statsmodels, Pingouin, Factor Analyzer, PyProcessMacro, Matplotlib, Seaborn, OpenPyXL
 
 ## Project Structure
-data/
-└── Data Tugas Akhir Meylisa.xlsx
 
-notebooks/
-└── analysis.ipynb
-
-src/
-├── 01_data_preparation.py
-├── 02_validity_reliability.py
-├── 03_anova_analysis.py
-├── 04_regression_process.py
-├── 05_visualization.py
-
-results/
-├── figures/
-└── tables/
-
-README.md
-requirements.txt
+---
 
 ## How to Run
 ```bash
 pip install -r requirements.txt
-
-Run scripts in order:
-python src/01_data_preparation.py
-python src/02_validity_reliability.py
-python src/03_anova_analysis.py
-python src/04_regression_process.py
-python src/05_visualization.py
-Key Analysis Highlights
-Experimental analysis of Generative AI in marketing communication
-Consumer trust formation in AI-driven eco messaging
-Greenwashing perception in sustainability communication
-Mediation and moderation effects in behavioral model
-Author
-
-Meylisa Situmeang
-Industrial Engineering | Data Analytics & Consumer Behavior Research
