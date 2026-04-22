@@ -1,0 +1,14 @@
+from pyprocessmacro import Process
+
+proc = Process(
+    data=df,
+    model=7,
+    x="X",
+    y="Y",
+    m=["M"],
+    w=["W"],
+    bootstrap_samples=5000,
+    center=True
+)
+
+proc.summary()
